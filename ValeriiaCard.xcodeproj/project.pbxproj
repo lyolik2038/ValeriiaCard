@@ -13,6 +13,9 @@
 		7B886BC52617A3950062C09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B886BC42617A3950062C09C /* Preview Assets.xcassets */; };
 		7B886BD02617A3950062C09C /* ValeriiaCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B886BCF2617A3950062C09C /* ValeriiaCardTests.swift */; };
 		7B886BDB2617A3950062C09C /* ValeriiaCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B886BDA2617A3950062C09C /* ValeriiaCardUITests.swift */; };
+		7B886C0A2617AEC40062C09C /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B886C092617AEC40062C09C /* Pacifico.ttf */; };
+		7B886C0F2617AF340062C09C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B886C0E2617AF340062C09C /* Pacifico-Regular.ttf */; };
+		7B886C1F261A56160062C09C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B886C1E261A56160062C09C /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		7B886BD62617A3950062C09C /* ValeriiaCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValeriiaCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B886BDA2617A3950062C09C /* ValeriiaCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValeriiaCardUITests.swift; sourceTree = "<group>"; };
 		7B886BDC2617A3950062C09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B886C092617AEC40062C09C /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Pacifico.ttf; path = "../../../I Am Rich SwiftUI/Pacifico/Pacifico.ttf"; sourceTree = "<group>"; };
+		7B886C0E2617AF340062C09C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../I Am Rich SwiftUI/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		7B886C1E261A56160062C09C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,10 @@
 		7B886BBC2617A3920062C09C /* ValeriiaCard */ = {
 			isa = PBXGroup;
 			children = (
+				7B886BEB2617A94F0062C09C /* fonts */,
 				7B886BBD2617A3920062C09C /* ValeriiaCardApp.swift */,
 				7B886BBF2617A3920062C09C /* ContentView.swift */,
+				7B886C1E261A56160062C09C /* InfoView.swift */,
 				7B886BC12617A3950062C09C /* Assets.xcassets */,
 				7B886BC62617A3950062C09C /* Info.plist */,
 				7B886BC32617A3950062C09C /* Preview Content */,
@@ -128,6 +136,15 @@
 				7B886BDC2617A3950062C09C /* Info.plist */,
 			);
 			path = ValeriiaCardUITests;
+			sourceTree = "<group>";
+		};
+		7B886BEB2617A94F0062C09C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B886C092617AEC40062C09C /* Pacifico.ttf */,
+				7B886C0E2617AF340062C09C /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B886BC52617A3950062C09C /* Preview Assets.xcassets in Resources */,
+				7B886C0F2617AF340062C09C /* Pacifico-Regular.ttf in Resources */,
 				7B886BC22617A3950062C09C /* Assets.xcassets in Resources */,
+				7B886C0A2617AEC40062C09C /* Pacifico.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B886BC02617A3920062C09C /* ContentView.swift in Sources */,
+				7B886C1F261A56160062C09C /* InfoView.swift in Sources */,
 				7B886BBE2617A3920062C09C /* ValeriiaCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
